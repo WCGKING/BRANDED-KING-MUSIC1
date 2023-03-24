@@ -66,7 +66,7 @@ async def skip_str(_, message: Message):
             return await pytgcalls.leave_group_call(message.chat.id)
 
         await message.reply_text(
-            text=f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀",
+            text=f"➻ jai shree Ram 🚩🚩 \n│ \n└ʙʏ : {message.from_user.mention} 🚩",
             reply_markup=close_key,
         )
         img = await gen_thumb(videoid, user_id)
