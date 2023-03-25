@@ -1,7 +1,7 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 FIDAA X RAN」──
+    ──「 FIDAA X RAJ」──
 </h2>
 
 <p align="center">
