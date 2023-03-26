@@ -50,10 +50,10 @@ async def ping_fallen(_, message: Message):
 
 <b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>
 
-๏ **ᴜᴩᴛɪᴍᴇ :** {uptime}
-๏ **ʀᴀᴍ :** {mem}
-๏ **ᴄᴩᴜ :** {cpu}
-๏ **ᴅɪsᴋ :** {disk}""",
+🚩 **ᴜᴩᴛɪᴍᴇ :** {uptime}
+🚩 **ʀᴀᴍ :** {mem}
+🚩 **ᴄᴩᴜ :** {cpu}
+🚩 **ᴅɪsᴋ :** {disk}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
