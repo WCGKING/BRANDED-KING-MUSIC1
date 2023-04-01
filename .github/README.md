@@ -1,11 +1,11 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 FIDAA X RAJ」──
+    ──「 FIDAA X LOKESH」──
 </h2>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/c97c1a3bea4f3a5762bca.jpg">
+  <img src="https://te.legra.ph/file/6a4ac076ff159bdcf9656.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ғᴀʟʟᴇɴ ✘ ᴍᴜsɪᴄ](https://t.me/FallenMusicBot)**_
