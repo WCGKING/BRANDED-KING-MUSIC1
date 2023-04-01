@@ -68,7 +68,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 Press `Ctrl+b` and then `d`
 
 <p align="center">
-  <img src="https://te.legra.ph/file/6a4ac076ff159bdcf9656.jpg">
+  <img src="https://te.legra.ph/file/c97c1a3bea4f3a5762bca.jpg">
 </p>
 
 </details>
