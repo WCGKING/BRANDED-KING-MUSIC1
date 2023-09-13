@@ -50,17 +50,17 @@ async def ping_fallen(_, message: Message):
 
 <b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>
 
-🥵 **ᴜᴩᴛɪᴍᴇ :** {uptime}
-🥵 **ʀᴀᴍ :** {mem}
-🥵 **ᴄᴩᴜ :** {cpu}
-🥵 **ᴅɪsᴋ :** {disk}""",
+❤️ **ᴜᴩᴛɪᴍᴇ :** {uptime}
+❤️ **ʀᴀᴍ :** {mem}
+❤️**ᴄᴩᴜ :** {cpu}
+❤️ **ᴅɪsᴋ :** {disk}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🥵 sᴜᴘᴘᴏʀᴛ 🥵", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton("🙈 sᴜᴘᴘᴏʀᴛ 🙈", url=config.SUPPORT_CHAT),
                     InlineKeyboardButton(
                         "✨ sᴏᴜʀᴄᴇ ✨",
-                        url="https://te.legra.ph/file/6a4ac076ff159bdcf9656.jpg",
+                        url="https://te.legra.ph/file/16c3d32e84de6e4502c1f.jpg",
                     ),
                 ],
             ]
