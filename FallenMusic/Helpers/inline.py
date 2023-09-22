@@ -40,6 +40,10 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="🕹️Sᴋɪᴘ🕹️", callback_data="skip_cb"),
             InlineKeyboardButton(text="🕹️Eɴᴅ🕹️", callback_data="end_cb"), 
         ], 
+        [  
+            InlineKeyboardButton(
+                text="🥀 ᴏᴡɴᴇʀ 🥀", url="https://t.me/BRANDEDKING82").
+        ],     
     ]
 )
 
