@@ -42,8 +42,7 @@ buttons = InlineKeyboardMarkup(
         ], 
         [  
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", url="https://t.me/BRANDEDKING82").
-        ],     
+                text="🥀 ᴏᴡɴᴇʀ 🥀", url="https://t.me/BRANDEDKING82").   
     ]
 )
 
