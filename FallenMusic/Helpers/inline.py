@@ -63,6 +63,7 @@ buttons = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="🙈", callback_data=f"ADMIN Stop|{chat_id}",
             InlineKeyboardButton(text="🌹", url=config.SUPPORT_CHANNEL),
+        ],                      
         [
             InlineKeyboardButton(text="🕹️ Rᴇsᴜᴍᴇ 🕹️", callback_data="resume_cb"),
             InlineKeyboardButton(text="🕹️ Pᴀᴜsᴇ 🕹️", callback_data="pause_cb"),
