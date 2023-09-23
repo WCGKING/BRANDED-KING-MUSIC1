@@ -47,32 +47,22 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         bar = "—————✪𝓑𝓡𝓐𝓝𝓓𝓡𝓓_𝓑𝓞𝓣✪————"
     elif 60 <= fall < 70:
         bar = "——————✪𝓑𝓡𝓐𝓝𝓓𝓔𝓓 𝓚𝓘𝓝𝓖✪———"
-    elif 70 <= fall < 80:
-        bar = "———————✪𝓑𝓡𝓐𝓝𝓓𝓔𝓓 𝓦𝓞𝓡𝓛𝓓✪——"
-    elif 80 <= fall < 95:
-        bar = "————————✪𝓑𝓡𝓐𝓝𝓓𝓡𝓓_𝓑𝓞𝓣—"
-    else:
-        bar = "—————————✪𝓑𝓡𝓐𝓝𝓓𝓡𝓓_𝓚𝓗𝓤𝓢𝓗𝓘✪"
-
-  
-        
-            InlineKeyboardButton(text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-                
-        ]
-      
-          [   
-      
-            InlineKeyboardButton(text="🦋",callback_data=f"ADMIN Resume|{chat_id}",
-            InlineKeyboardButton(text="🥰", callback_data=f"ADMIN Pause|{chat_id}",
-            InlineKeyboardButton(text="❤️", callback_data=f"add_playlist {videoid}",
-            InlineKeyboardButton(text="💫", callback_data=f"ADMIN Skip|{chat_id}",
-            InlineKeyboardButton(text="🙈", callback_data=f"ADMIN Stop|{chat_id}",
-       ],  
+    
 
                                  
 buttons = InlineKeyboardMarkup(
  [
+        [
+            InlineKeyboardButton(text="🦋",callback_data=f"ADMIN Resume|{chat_id}",
+            InlineKeyboardButton(text="🥰", callback_data=f"ADMIN Pause|{chat_id}",
+        ],
+        [  
+            InlineKeyboardButton(text="❤️", callback_data=f"add_playlist {videoid}",
+            InlineKeyboardButton(text="💫", callback_data=f"ADMIN Skip|{chat_id}",
+        ],
+        [
+            InlineKeyboardButton(text="🙈", callback_data=f"ADMIN Stop|{chat_id}",
+            InlineKeyboardButton(text="🌹", url=config.SUPPORT_CHANNEL),
         [
             InlineKeyboardButton(text="🕹️ Rᴇsᴜᴍᴇ 🕹️", callback_data="resume_cb"),
             InlineKeyboardButton(text="🕹️ Pᴀᴜsᴇ 🕹️", callback_data="pause_cb"),
