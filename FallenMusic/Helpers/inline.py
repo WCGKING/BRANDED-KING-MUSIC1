@@ -31,7 +31,7 @@ close_key = InlineKeyboardMarkup(
 
 
 buttons = InlineKeyboardMarkup(
-    [
+ [
         [
             InlineKeyboardButton(text="🕹️Rᴇsᴜᴍᴇ🕹️", callback_data="resume_cb"),
             InlineKeyboardButton(text="🕹️Pᴀᴜsᴇ🕹️", callback_data="pause_cb"),
@@ -39,11 +39,14 @@ buttons = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="🕹️Sᴋɪᴘ🕹️", callback_data="skip_cb"),
             InlineKeyboardButton(text="🕹️Eɴᴅ🕹️", callback_data="end_cb"), 
-        ],
+        ], 
         [
             InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ🦋 ", user_id=config.OWNER_ID),
             InlineKeyboardButton(text=" 🌹sᴜᴩᴩᴏʀᴛ🦋 ", url=config.SUPPORT_CHAT),
         ],
+    ]
+)
+
     
 
 
