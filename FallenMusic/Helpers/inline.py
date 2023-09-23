@@ -57,16 +57,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 buttons = InlineKeyboardMarkup(
  [
         [
-            InlineKeyboardButton(text="🕹️Rᴇsᴜᴍᴇ🕹️", callback_data="resume_cb"),
-            InlineKeyboardButton(text="🕹️Pᴀᴜsᴇ🕹️", callback_data="pause_cb"),
+            InlineKeyboardButton(text="🕹️ Rᴇsᴜᴍᴇ 🕹️", callback_data="resume_cb"),
+            InlineKeyboardButton(text="🕹️ Pᴀᴜsᴇ 🕹️", callback_data="pause_cb"),
         ], 
         [
-            InlineKeyboardButton(text="🕹️Sᴋɪᴘ🕹️", callback_data="skip_cb"),
-            InlineKeyboardButton(text="🕹️Eɴᴅ🕹️", callback_data="end_cb"), 
+            InlineKeyboardButton(text="🕹️ Sᴋɪᴘ 🕹️", callback_data="skip_cb"),
+            InlineKeyboardButton(text="🕹️ Eɴᴅ 🕹️", callback_data="end_cb"), 
         ], 
         [
-            InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ🦋 ", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text=" 🌹sᴜᴩᴩᴏʀᴛ🦋 ", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="👑 ʙʀᴀɴᴅᴇᴅ 👑", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="🔥 sᴜᴩᴩᴏʀᴛ 🔥 ", url=config.SUPPORT_CHAT),
         ],
     ]
 )
@@ -90,7 +90,7 @@ pm_buttons = [
         InlineKeyboardButton(
             text="🌹 sᴏᴜʀᴄᴇ 🦋", url="https://te.legra.ph/file/3d0d7d23d3a7fb86b442e.jpg"
         ),
-        InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ🦋 ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ 🦋 ", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -103,14 +103,14 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="🌹 ᴄʜᴀɴɴᴇʟ🦋 ", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text=" 🌹sᴜᴩᴩᴏʀᴛ🦋 ", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="🌹 ᴄʜᴀɴɴᴇʟ 🦋 ", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text=" 🌹 sᴜᴩᴩᴏʀᴛ 🦋 ", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="🌹  sᴏᴜʀᴄᴇ🦋 ", url="https://te.legra.ph/file/3d0d7d23d3a7fb86b442e.jpg"
+            text="🌹 sᴏᴜʀᴄᴇ 🦋 ", url="https://te.legra.ph/file/3d0d7d23d3a7fb86b442e.jpg"
         ),
-        InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ🦋 ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ 🦋 ", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -123,20 +123,20 @@ helpmenu = [
         )
     ],
     [
-        InlineKeyboardButton(text="🌹sᴜᴅᴏ🦋", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="🌹ᴏᴡɴᴇʀ🦋", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="🌹 sᴜᴅᴏ 🦋", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="🌹 ᴏᴡɴᴇʀ 🦋", callback_data="fallen_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="🌹ʙᴀᴄᴋ🦋", callback_data="fallen_home"),
-        InlineKeyboardButton(text="🌹ᴄʟᴏsᴇ🦋", callback_data="close"),
+        InlineKeyboardButton(text="🌹 ʙᴀᴄᴋ 🦋", callback_data="fallen_home"),
+        InlineKeyboardButton(text="🌹 ᴄʟᴏsᴇ 🦋", callback_data="close"),
     ],
 ]
 
 
 help_back = [
-    [InlineKeyboardButton(text=" 🌹sᴜᴩᴩᴏʀᴛ🦋 ", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text=" 🌹 sᴜᴩᴩᴏʀᴛ 🦋 ", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="🌹ʙᴀᴄᴋ🦋", callback_data="fallen_help"),
-        InlineKeyboardButton(text="🌹ᴄʟᴏsᴇ🦋", callback_data="close"),
+        InlineKeyboardButton(text="🌹 ʙᴀᴄᴋ 🦋", callback_data="fallen_help"),
+        InlineKeyboardButton(text="🌹 ᴄʟᴏsᴇ 🦋", callback_data="close"),
     ],
 ]
