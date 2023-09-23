@@ -54,8 +54,8 @@ buttons = InlineKeyboardMarkup(
  [
         [
             InlineKeyboardButton(text="🦋",callback_data=f"ADMIN Resume|{chat_id}",
-            InlineKeyboardButton(text="🥰", callback_data=f"ADMIN Pause|{chat_id}",
-        ],
+            InlineKeyboardButton(text="🥰",callback_data=f"ADMIN Pause|{chat_id}",
+        ]
         [  
             InlineKeyboardButton(text="❤️", callback_data=f"add_playlist {videoid}",
             InlineKeyboardButton(text="💫", callback_data=f"ADMIN Skip|{chat_id}",
