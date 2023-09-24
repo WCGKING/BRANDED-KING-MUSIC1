@@ -50,12 +50,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     
 
                                  
-buttons = InlineKeyboardMarkup(
+buttons = InlineKeyboardMarkup[
  [
         [
             InlineKeyboardButton(text="🦋",callback_data=f"ADMIN Resume|(chat_id)",
             InlineKeyboardButton(text="🥰",callback_data=f"ADMIN Pause|(chat_id)",
         ],
+     
         [  
             InlineKeyboardButton(text="❤️", callback_data=f"add_playlist (videoid)",
             InlineKeyboardButton(text="💫", callback_data=f"ADMIN Skip|(chat_id)",
