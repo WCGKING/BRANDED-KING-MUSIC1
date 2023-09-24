@@ -29,28 +29,17 @@ close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
 )
   
-    
-buttons = InlineKeyboardMarkup(  
-     [
-        [   InlineKeyboardButton(text="▷", callback_data="resume_cb"),
+ 
+buttons = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton(text="▷", callback_data="resume_cb"),
             InlineKeyboardButton(text="II", callback_data="pause_cb"),
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
-        ], 
-        [
-            InlineKeyboardButton(text="🕹️Rᴇsᴜᴍᴇ🕹️", callback_data="resume_cb"),
-            InlineKeyboardButton(text="🕹️Pᴀᴜsᴇ🕹️", callback_data="pause_cb"),
-        ], 
-        [
-            InlineKeyboardButton(text="🕹️Sᴋɪᴘ🕹️", callback_data="skip_cb"),
-            InlineKeyboardButton(text="🕹️Eɴᴅ🕹️", callback_data="end_cb"), 
-         [
-            InlineKeyboardButton(text="👑 ʙʀᴀɴᴅᴇᴅ 👑", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="🔥 sᴜᴩᴩᴏʀᴛ 🔥 ", url=config.SUPPORT_CHAT),
-        ],
+        ]
     ]
-)
-    
+)    
 
 pm_buttons = [
     [
