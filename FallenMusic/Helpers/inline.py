@@ -44,7 +44,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="🕹️Sᴋɪᴘ🕹️", callback_data="skip_cb"),
             InlineKeyboardButton(text="🕹️Eɴᴅ🕹️", callback_data="end_cb"),
        ]
-    ]
+    
 )    
 
 pm_buttons = [
