@@ -36,8 +36,8 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="II", callback_data="pause_cb"),
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
-        ],
-        [ buttons = InlineKeyboardMarkup(
+        ], 
+buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="🕹️Rᴇsᴜᴍᴇ🕹️", callback_data="resume_cb"),
             InlineKeyboardButton(text="🕹️Pᴀᴜsᴇ🕹️", callback_data="pause_cb"),
         ], 
