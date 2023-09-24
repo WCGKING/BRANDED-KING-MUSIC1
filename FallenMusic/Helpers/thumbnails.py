@@ -47,7 +47,7 @@ def add_corners(im):
     bigsize = (im.size[0] * 3, im.size[1] * 3)
     mask = Image.new("L", bigsize, 0)
     ImageDraw.Draw(mask).ellipse((0, 0) + bigsize, fill=255)
-    mask = mask.resize(im.size, Image.ANTIALIAS)
+    mask = mask.resize(im.size, Image.LANCZOS)
     mask = ImageChops.darker(mask, im.split()[-1])
     im.putalpha(mask)
 
@@ -152,9 +152,9 @@ async def gen_thumb(videoid, user_id):
             draw.text(
                 (450, 25),
                 f"STARTED PLAYING",
-                fill="pink",
+                fill="white",
                 stroke_width=3,
-                stroke_fill="pink",
+                stroke_fill="grey",
                 font=font,
             )
             if para[0]:
@@ -164,7 +164,7 @@ async def gen_thumb(videoid, user_id):
                     f"{para[0]}",
                     fill="white",
                     stroke_width=1,
-                    stroke_fill="pink",
+                    stroke_fill="white",
                     font=font,
                 )
             if para[1]:
@@ -174,7 +174,7 @@ async def gen_thumb(videoid, user_id):
                     f"{para[1]}",
                     fill="white",
                     stroke_width=1,
-                    stroke_fill="pink",
+                    stroke_fill="white",
                     font=font,
                 )
         except:
@@ -183,7 +183,7 @@ async def gen_thumb(videoid, user_id):
         draw.text(
             ((1280 - text_w) / 2, 660),
             f"Duration: {duration} Mins",
-            fill="pink",
+            fill="white",
             font=arial,
         )
         try:
@@ -228,7 +228,7 @@ async def gen_qthumb(videoid, user_id):
             async with session.get(thumbnail) as resp:
                 if resp.status == 200:
                     f = await aiofiles.open(f"cache/thumb{videoid}.png", mode="wb")
-                    await f.write(await resp.pink())
+                    await f.write(await resp.read())
                     await f.close()
 
         try:
@@ -245,7 +245,7 @@ async def gen_qthumb(videoid, user_id):
         xy = Image.open(wxy)
         a = Image.new("L", [640, 640], 0)
         b = ImageDraw.Draw(a)
-        b.pieslice([(0, 0), (640, 640)], 0, 360, fill=255, outline="pink")
+        b.pieslice([(0, 0), (640, 640)], 0, 360, fill=255, outline="white")
         c = np.array(xy)
         d = np.array(a)
         e = np.dstack((c, d))
@@ -253,7 +253,7 @@ async def gen_qthumb(videoid, user_id):
         x = f.resize((107, 107))
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        bg = Image.open(f"FallenMusic/Helpers/utils/square.png")
+        bg = Image.open(f"FallenMusic/Helpers/utils/circle.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
@@ -299,7 +299,7 @@ async def gen_qthumb(videoid, user_id):
                 "ADDED TO QUEUE",
                 fill="white",
                 stroke_width=5,
-                stroke_fill="pink",
+                stroke_fill="black",
                 font=font,
             )
             if para[0]:
@@ -309,8 +309,8 @@ async def gen_qthumb(videoid, user_id):
                     f"{para[0]}",
                     fill="white",
                     stroke_width=1,
-                    stroke_fill="pink",
-                    font=stylish,
+                    stroke_fill="white",
+                    font=font,
                 )
             if para[1]:
                 text_w, text_h = draw.textsize(f"{para[1]}", font=font)
@@ -319,8 +319,8 @@ async def gen_qthumb(videoid, user_id):
                     f"{para[1]}",
                     fill="white",
                     stroke_width=1,
-                    stroke_fill="pink",
-                    font=stylish,
+                    stroke_fill="white",
+                    font=font,
                 )
         except:
             pass
@@ -328,7 +328,7 @@ async def gen_qthumb(videoid, user_id):
         draw.text(
             ((1280 - text_w) / 2, 660),
             f"Duration: {duration} Mins",
-            fill="pink",
+            fill="white",
             font=arial,
         )
 
