@@ -76,7 +76,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text=" 🌹 sᴜᴩᴩᴏʀᴛ 🦋", url=config.SUPPORT_CHAT),
         ], 
     ]
- 
+) 
         
 pm_buttons = [
     [
