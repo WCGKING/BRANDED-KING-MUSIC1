@@ -29,28 +29,29 @@ close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
 )
 
+
 def stream_markup_timer(_, chat_id, played, dur):
     played_sec = time_to_seconds(played)
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
-    umm = math.floor(percentage)
-    if 0 < umm <= 10:
+    fal = math.floor(percentage)
+    if 0 < fal <= 10:
         bar = "⚡ѕтαяє∂ ρℓαყเɳɠ⚡"
-    elif 10 < umm < 20:
+    elif 10 < fal < 20:
         bar = " 💥BRANDED_WORLD💥 "
-    elif 20 <= umm < 30:
+    elif 20 <= fal < 30:
         bar = " 🔥BRANDRD_BOT🔥 "
-    elif 30 <= umm < 40:
+    elif 30 <= fal < 40:
         bar = " 🥀BRANDED_KHUSHI🥀 "
-    elif 40 <= umm < 50:
+    elif 40 <= fal < 50:
         bar = " 💥BRANDED_WORLD💥 "
-    elif 50 <= umm < 60:
+    elif 50 <= fal < 60:
         bar = " 🔥BRANDRD_BOT🔥 "
-    elif 60 <= umm < 70:
+    elif 60 <= fal < 70:
         bar = " 🥀BRANDED_KHUSHI🥀 "
-    elif 70 <= umm < 80:
+    elif 70 <= fal < 80:
         bar = " 💥BRANDED_WORLD💥 "
-    elif 80 <= umm < 95:
+    elif 80 <= fal < 95:
         bar = " 🔥BRANDRD_BOT🔥 "   
     else:
         bar = " 🍷ѕσ ¢ιтє ѕσηg🍷 " 
