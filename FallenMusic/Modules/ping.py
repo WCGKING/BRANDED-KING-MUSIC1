@@ -57,10 +57,10 @@ async def ping_fallen(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✭ 𝗦𝗢𝗨𝗥𝗖𝗘 🥀",url="https://github.com/WCGKING/BRANDED-KING-MUSIC1",
+                    InlineKeyboardButton("✭ 𝗦𝗢𝗨𝗥𝗖𝗘 🥀",url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"),
                     InlineKeyboardButton("✭ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗧 🥀", url=config.SUPPORT_CHAT),
-                    InlineKeyboardButton("✭ 𝗕𝗥𝗡𝗗𝗥𝗗 𝗕𝗢𝗧 🥀",url="https://t.me/BRANDRD_BOT",
-                    InlineKeyboardButton("✭ 𝐁𝐑𝐀𝐍𝐃𝐄𝐃 𝐏𝐀𝐈𝐃 𝐇𝐄𝐑𝐎𝐊𝐔 𝐂𝐂 🥀",url="https://t.me/BRANDED_PAID_CC",
+                    InlineKeyboardButton("✭ 𝗕𝗥𝗡𝗗𝗥𝗗 𝗕𝗢𝗧 🥀",url="https://t.me/BRANDRD_BOT"),
+                    InlineKeyboardButton("✭ 𝐁𝐑𝐀𝐍𝐃𝐄𝐃 𝐏𝐀𝐈𝐃 𝐇𝐄𝐑𝐎𝐊𝐔 𝐂𝐂 🥀",url="https://t.me/BRANDED_PAID_CC"),
                 ],
             ]   
         )  
