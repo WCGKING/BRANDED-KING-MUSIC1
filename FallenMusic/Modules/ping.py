@@ -66,7 +66,7 @@ async def ping_fallen(_, message: Message):
                 ],  
                 [    
                    InlineKeyboardButton("☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝐇𝐄𝐑𝐎𝐊𝐔 🥀",url="https://t.me/BRANDED_PAID_CC"),
-                   InlineKeyboardButton("☆ 𝗠𝗬 𝗚𝗙 🥀",https://t.me/B_R_A_N_D_E_D_K_I_N_G),
+                   InlineKeyboardButton("☆ 𝗠𝗬 𝗚𝗙 🥀",https://t.me/B_R_A_N_D_E_D_K_I_N_G"),
                 ], 
            ]   
       )  
