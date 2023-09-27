@@ -56,4 +56,18 @@ async def ping_fallen(_, message: Message):
 ♔**𝓓𝓘𝓢𝓚 💻 :** {disk}""",
         buttons = InlineKeyboardMarkup(
             [
+                [
+                   InlineKeyboardButton(text="☆ 𝗦𝗢𝗨𝗥𝗖𝗘 🥀",url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"),
+                   InlineKeyboardButton(text="☆ 𝗕𝗥𝗡𝗗𝗥𝗗 𝗕𝗢𝗧 🥀",url="https://t.me/BRANDRD_BOT"),
+                ], 
+                [
+                   InlineKeyboardButton(text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗧 🥀",url=config.SUPPORT_CHAT"),
+                   InlineKeyboardButton(text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗞𝗜𝗡𝗚 🥀", user_id=config.OWNER_ID"), 
+                ],  
+                [    
+                   InlineKeyboardButton(text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝐇𝐄𝐑𝐎𝐊𝐔 🥀",url="https://t.me/BRANDED_PAID_CC"),
+                   InlineKeyboardButton(text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🥀", url=config.SUPPORT_CHAT),
+                ], 
+           ]   
+        )  
              
