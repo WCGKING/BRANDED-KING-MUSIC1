@@ -46,21 +46,19 @@ async def ping_fallen(_, message: Message):
     uptime = get_readable_time((upt))
 
     await hmm.edit_text(
-        f"""➻ ᴩᴏɴɢ : `{resp}ᴍs`
+        f"""➻ᴩᴏɴɢ 🔥  : `{resp}ᴍs`
 
 <b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>
 
-❤️ **ᴜᴩᴛɪᴍᴇ :** {uptime}
-❤️ **ʀᴀᴍ :** {mem}
-❤️**ᴄᴩᴜ :** {cpu}
-❤️ **ᴅɪsᴋ :** {disk}""",
+♔ **𝓤𝓟𝓣𝓘𝓜𝓔 ⏱ :** {uptime}
+♔ **𝓡𝓐𝓜 🖲 :** {mem}
+♔**𝓒𝓟𝓤 🖥 :** {cpu}
+♔**𝓓𝓘𝓢𝓚 💻 :** {disk}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🙈 sᴜᴘᴘᴏʀᴛ 🙈", url=config.SUPPORT_CHAT),
-                    InlineKeyboardButton(
-                        "✨ sᴏᴜʀᴄᴇ ✨",
-                        url="https://te.legra.ph/file/16c3d32e84de6e4502c1f.jpg",
+                    InlineKeyboardButton("✭𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗧 🥀", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton("✭ 𝗦𝗢𝗨𝗥𝗖𝗘 🥀",url="https://github.com/WCGKING/BRANDED-KING-MUSIC1",
                     ),
                 ],
             ]
