@@ -63,7 +63,10 @@ async def ping_fallen(_, message: Message):
                         url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"),
                     InlineKeyboardButton(
                         "✭ 𝗕𝗥𝗡𝗗𝗥𝗗 𝗕𝗢𝗧 🥀",
-                        url="https://t.me/BRANDRD_BOT",
+                        url="https://t.me/BRANDRD_BOT"),
+                    InlineKeyboardButton(
+                        "✭ 𝐁𝐑𝐀𝐍𝐃𝐄𝐃 𝐏𝐀𝐈𝐃 𝐇𝐄𝐑𝐎𝐊𝐔🥀",
+                        url="https://t.me/BRANDED_PAID_CC",
                      ),
                 ],
             ]
