@@ -89,7 +89,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🌹 𝗦𝗢𝗨𝗥𝗖𝗘  🦋 ", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
+            text="🌹 𝗦𝗢𝗨𝗥𝗖𝗘 🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
         ),
         InlineKeyboardButton(text="🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗞𝗜𝗡𝗚 🦋 ", user_id=config.OWNER_ID),
     ],
