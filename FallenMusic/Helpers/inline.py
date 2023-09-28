@@ -69,7 +69,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🌹 🇸​​🇴​​🇺​​🇷​​🇨​​🇪​  🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
+            text="🌹 ꜱᴏᴜʀᴄᴇ  🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
         ),
         InlineKeyboardButton(text="🌹 ​ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ 🦋", user_id=config.OWNER_ID),
     ],
