@@ -40,16 +40,16 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
         ],
         [
-            InlineKeyboardButton(text="☆ 𝗥𝗘𝗦𝗨𝗠𝗘 🥀", callback_data="resume_cb"),
-            InlineKeyboardButton(text="☆ 𝗣𝗔𝗨𝗦𝗘 🥀", callback_data="pause_cb"),
+            InlineKeyboardButton(text="☆ ʀᴇꜱᴜᴍᴇ 🥀", callback_data="resume_cb"),
+            InlineKeyboardButton(text="☆ ᴘᴀᴜꜱᴇ 🥀", callback_data="pause_cb"),
         ], 
         [
-            InlineKeyboardButton(text="☆ 𝗦𝗞𝗜𝗣 🥀", callback_data="skip_cb"),
-            InlineKeyboardButton(text="☆ 𝗘𝗔𝗗 🥀", callback_data="end_cb"), 
+            InlineKeyboardButton(text="☆ ꜱᴋɪᴘ 🥀", callback_data="skip_cb"),
+            InlineKeyboardButton(text="☆ ᴇᴀᴅ  🥀", callback_data="end_cb"), 
         ],  
         [    
-            InlineKeyboardButton(text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗞𝗜𝗡𝗚 🥀", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🥀", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="☆ ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ 🥀", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="☆ 🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ 🇸​​🇺​​🇵​​🇵​​🇴​​🇷​​🇹 🥀", url=config.SUPPORT_CHAT),
         ], 
     ]   
 )  
@@ -58,20 +58,20 @@ buttons = InlineKeyboardMarkup(
 pm_buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 𝗔𝗗𝗗 𝗠𝗘 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🦋",
+            text="🌹 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🦋",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="🌹 𝗛𝗘𝗟𝗣 & 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 🦋", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="🌹 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ 🦋", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="🌹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🦋", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text=" 🌹 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🦋", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="🌹 🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱​   🦋", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text=" 🌹 ​🇸​​🇺​​🇵​​🇵​​🇴​​🇷​​🇹​  🦋", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="🌹 𝗦𝗢𝗨𝗥𝗖𝗘 🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
+            text="🌹 🇸​​🇴​​🇺​​🇷​​🇨​​🇪​  🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
         ),
-        InlineKeyboardButton(text="🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗞𝗜𝗡𝗚 🦋", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🌹 ​🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ ​🇰​​🇮​​🇳​​🇬​ 🦋", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -79,19 +79,19 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 𝗔𝗗𝗗 𝗠𝗘 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🦋",
+            text="🌹 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🦋",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="🌹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🦋", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🦋", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="🌹 🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱 🦋", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="🌹 🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ 🇸​​🇺​​🇵​​🇵​​🇴​​🇷​​🇹 🦋", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="🌹 𝗦𝗢𝗨𝗥𝗖𝗘 🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
+            text="🌹 ꜱᴏᴜʀᴄᴇ 🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
         ),
-        InlineKeyboardButton(text="🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗞𝗜𝗡𝗚 🦋 ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🌹 ​🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ ​🇰​​🇮​​🇳​​🇬​ 🦋 ", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -104,20 +104,20 @@ helpmenu = [
         )
     ],
     [
-        InlineKeyboardButton(text="🌹 𝗦𝗨𝗗𝗢 🦋", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗞𝗜𝗡𝗚 🦋", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="🌹 ꜱᴜᴅᴏ 🦋", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="🌹 ​🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ ​🇰​​🇮​​🇳​​🇬​ 🦋", callback_data="fallen_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="🌹 𝗕𝗔𝗖𝗞 🦋", callback_data="fallen_home"),
-        InlineKeyboardButton(text="🌹 𝗖𝗟𝗢𝗦𝗘 🦋", callback_data="close"),
+        InlineKeyboardButton(text="🌹 ʙᴀᴄᴋ 🦋", callback_data="fallen_home"),
+        InlineKeyboardButton(text="🌹 ᴄʟᴏꜱᴇ 🦋", callback_data="close"),
     ],
 ]
 
 
 help_back = [
-    [InlineKeyboardButton(text="🌹 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🦋", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ  ꜱᴜᴘᴘᴏʀᴛ 🦋", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="🌹 𝗕𝗔𝗖𝗞 🦋", callback_data="fallen_help"),
-        InlineKeyboardButton(text="🌹 𝗖𝗟𝗢𝗦𝗘 🦋", callback_data="close"),
+        InlineKeyboardButton(text="🌹 ʙᴀᴄᴋ 🦋", callback_data="fallen_help"),
+        InlineKeyboardButton(text="🌹 ᴄʟᴏꜱᴇ 🦋", callback_data="close"),
     ],
 ]
