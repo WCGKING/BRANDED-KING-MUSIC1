@@ -50,23 +50,34 @@ async def ping_fallen(_, message: Message):
 
 <b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>
 
-♔ **𝓤𝓟𝓣𝓘𝓜𝓔 ⏱ :** {uptime}
-♔ **𝓡𝓐𝓜 🖲 :** {mem}
+♔ **𝓤𝓟𝓣𝓘𝓜𝓔  ⏱ :** {uptime}
+♔ **𝓡𝓐𝓜  🖲 :** {mem}
 ♔**𝓒𝓟𝓤 🖥 :** {cpu}
-♔**𝓓𝓘𝓢𝓚 💻 :** {disk}""",
-        buttons = InlineKeyboardMarkup(
+♔**𝓓𝓘𝓢𝓚  💻 :** {disk}""",
+         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                   InlineKeyboardButton("☆ 𝗦𝗢𝗨𝗥𝗖𝗘 🥀",url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"),
-                   InlineKeyboardButton("☆ 𝗕𝗥𝗡𝗗𝗥𝗗 𝗕𝗢𝗧 🥀",url="https://t.me/BRANDRD_BOT"),
-                ], 
-                [
-                   InlineKeyboardButton("☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗧 🥀",url="https://t.me/BRANDED_WORLD"),
-                   InlineKeyboardButton("☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗞𝗜𝗡𝗚 🥀",url="https://t.me/BRANDEDKING82"), 
-                ],  
-                [    
-                   InlineKeyboardButton("☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝐇𝐄𝐑𝐎𝐊𝐔 🥀",url="https://t.me/BRANDED_PAID_CC"),
-                   InlineKeyboardButton("☆ 𝗠𝗬 𝗚𝗙 🥀","https://t.me/B_R_A_N_D_E_D_K_I_N_G"),
-                ], 
-           ]   
-      )  
+            InlineKeyboardButton(
+                text="☆ 𝗔𝗗𝗗 𝗠𝗘 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🥀",
+                url=f"https://t.me/{app.username}?startgroup=true",
+            )
+        
+        ],
+        [
+            InlineKeyboardButton(
+                text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗧 🥀", url=f"https://t.me/BRANDED_WORLD",
+            ),
+            InlineKeyboardButton(
+                text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝐇𝐄𝐑𝐎𝐊𝐔 🥀", url=f"https://t.me/BRANDED_PAID_CC",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="☆ 𝗦𝗢𝗨𝗥𝗖𝗘 🥀", url=f"https://github.com/WCGKING/BRANDED-KING-MUSIC1"
+            )
+        ],
+    ]
+    ),
+)
+    
+        
