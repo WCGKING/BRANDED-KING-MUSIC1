@@ -50,16 +50,19 @@ async def ping_fallen(_, message: Message):
 
 <b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>
 
-♔ **​🇺​​🇵​​🇹​​🇮​​🇲​​🇪​ ⏱ :** {uptime}
-♔ **🇷​​🇦​​🇲​ 🖲 :** {mem}
-♔**​🇨​​🇵​​🇺​ 🖥 :** {cpu}
-♔**​🇩​​🇮​​🇸​​🇰​ 💻 :** {disk}""",
+♔ **ᴜᴘᴛɪᴍᴇ​ ⏱ :** {uptime}
+
+♔ **ʀᴀᴍ ​ 🖲 :** {mem}
+
+♔**​ᴄᴘᴜ ​ 🖥 :** {cpu}
+
+♔**ᴅɪꜱᴋ​ 💻 :** {disk}""",
          reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🙈 sᴜᴘᴘᴏʀᴛ 🙈", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton("☆ ʙʀᴀɴᴅᴇᴅ ꜱᴜᴘᴘᴏʀᴛ 🥀", url=config.SUPPORT_CHAT),
                     InlineKeyboardButton(
-                        "✨ sᴏᴜʀᴄᴇ ✨",
+                        "☆ ꜱᴏᴜʀᴄᴇ 🥀",
                         url="https://github.com/WCGKING/BRANDED-KING-MUSIC1",
                     ),
                 ],
