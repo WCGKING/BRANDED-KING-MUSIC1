@@ -58,11 +58,11 @@ buttons = InlineKeyboardMarkup(
 pm_buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🦋",
+            text="🌹 + ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ + 🦋",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="🌹 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ 🦋", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="🌹 + ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ + 🦋", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="🌹 ᴄʜᴀɴɴᴇʟ​ 🦋", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text=" 🌹 ​ꜱᴜᴘᴘᴏʀᴛ 🦋", url=config.SUPPORT_CHAT),
@@ -79,7 +79,7 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🦋",
+            text="🌹 + ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ + 🦋",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
