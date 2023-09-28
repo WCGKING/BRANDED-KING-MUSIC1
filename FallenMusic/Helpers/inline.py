@@ -64,14 +64,14 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="🌹 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ 🦋", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="🌹 🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱​   🦋", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text=" 🌹 ​🇸​​🇺​​🇵​​🇵​​🇴​​🇷​​🇹​  🦋", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="🌹 ᴄʜᴀɴɴᴇʟ​ 🦋", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text=" 🌹 ​ꜱᴜᴘᴘᴏʀᴛ 🦋", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
             text="🌹 🇸​​🇴​​🇺​​🇷​​🇨​​🇪​  🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
         ),
-        InlineKeyboardButton(text="🌹 ​🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ ​🇰​​🇮​​🇳​​🇬​ 🦋", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🌹 ​ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ 🦋", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -91,7 +91,7 @@ gp_buttons = [
         InlineKeyboardButton(
             text="🌹 ꜱᴏᴜʀᴄᴇ 🦋", url="https://github.com/WCGKING/BRANDED-KING-MUSIC1"
         ),
-        InlineKeyboardButton(text="🌹 ​🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ ​🇰​​🇮​​🇳​​🇬​ 🦋 ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🌹 ​🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ ​🇰​​🇮​​🇳​​🇬​ 🦋", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -99,13 +99,13 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="ᴇᴠᴇʀʏᴏɴᴇ",
+            text="🌹 ᴇᴠᴇʀʏᴏɴᴇ 🦋",
             callback_data="fallen_cb help",
         )
     ],
     [
         InlineKeyboardButton(text="🌹 ꜱᴜᴅᴏ 🦋", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="🌹 ​🇧​​🇷​​🇦​​🇳​​🇩​​🇪​​🇩​ ​🇰​​🇮​​🇳​​🇬​ 🦋", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="🌹 ​ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ​ 🦋", callback_data="fallen_cb owner"),
     ],
     [
         InlineKeyboardButton(text="🌹 ʙᴀᴄᴋ 🦋", callback_data="fallen_home"),
@@ -115,7 +115,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ  ꜱᴜᴘᴘᴏʀᴛ 🦋", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="🌹 ʙʀᴀɴᴅᴇᴅ ꜱᴜᴘᴘᴏʀᴛ 🦋", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="🌹 ʙᴀᴄᴋ 🦋", callback_data="fallen_help"),
         InlineKeyboardButton(text="🌹 ᴄʟᴏꜱᴇ 🦋", callback_data="close"),
