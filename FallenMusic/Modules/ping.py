@@ -58,22 +58,22 @@ async def ping_fallen(_, message: Message):
             [
                 [
             InlineKeyboardButton(
-                text="☆ 𝗔𝗗𝗗 𝗠𝗘 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🥀",
+                text="☆ + ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ + 🥀",
                 url="https://t.me/BRANDED_WORLD",
             )
         
         ],
         [
             InlineKeyboardButton(
-                text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗦𝗨𝗣𝗣𝗢𝗧 🥀", url=f"https://t.me/BRANDED_WORLD",
+                text="☆ ʙʀᴀɴᴅᴇᴅ ꜱᴜᴘᴘᴏᴛ 🥀", url=f"https://t.me/BRANDED_WORLD",
             ),
             InlineKeyboardButton(
-                text="☆ 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝐇𝐄𝐑𝐎𝐊𝐔 🥀", url=f"https://t.me/BRANDED_PAID_CC",
+                text="☆ ʙʀᴀɴᴅᴇᴅ ʜᴇʀᴏᴋᴜ  🥀", url=f"https://t.me/BRANDED_PAID_CC",
             )
         ],
         [
             InlineKeyboardButton(
-                text="☆ 𝗦𝗢𝗨𝗥𝗖𝗘 🥀", url=f"https://github.com/WCGKING/BRANDED-KING-MUSIC1"
+                text="☆ ꜱᴏᴜʀᴄᴇ 🥀", url=f"https://github.com/WCGKING/BRANDED-KING-MUSIC1"
             )
         ],
     ]
