@@ -59,7 +59,7 @@ async def ping_fallen(_, message: Message):
                 [
             InlineKeyboardButton(
                 text="☆ 𝗔𝗗𝗗 𝗠𝗘 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🥀",
-                url=f"https://t.me/{app.username}?startgroup=true",
+                url=config.SUPPORT_CHAT",
             )
         
         ],
