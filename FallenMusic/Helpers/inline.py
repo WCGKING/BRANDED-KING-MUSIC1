@@ -62,7 +62,7 @@ pm_buttons = [
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="🌹 + ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ + 🦋", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="🌹 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ 🦋", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="🌹 ᴄʜᴀɴɴᴇʟ​ 🦋", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text=" 🌹 ​ꜱᴜᴘᴘᴏʀᴛ 🦋", url=config.SUPPORT_CHAT),
