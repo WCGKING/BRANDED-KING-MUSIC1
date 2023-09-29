@@ -31,10 +31,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFo
 from youtubesearchpython.__future__ import VideosSearch
 
 from config import FAILED
-from FallenMusic import YOUTUBE_IMG_URL
-
-
-return (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+from config import YOUTUBE_IMG_URL
 
 
 def changeImageSize(maxWidth, maxHeight, image):
