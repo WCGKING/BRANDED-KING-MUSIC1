@@ -34,7 +34,7 @@ from config import FAILED
 from FallenMusic import YOUTUBE_IMG_URL
 
 
-    return (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+return (random.randint(0,255),random.randint(0,255),random.randint(0,255))
 
 
 def changeImageSize(maxWidth, maxHeight, image):
