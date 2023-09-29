@@ -24,10 +24,5 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "KHUSHI_MUSIC76_BOT")  
 
-if YOUTUBE_IMG_URL:
-    if YOUTUBE_IMG_URL != "assets/Youtube.jpeg":
-        if not re.match("(?:http|https)://", YOUTUBE_IMG_URL):
-            print(
-                "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
-            )
-            sys.exit()
+YOUTUBE_IMG_URL: "assets/Youtube.jpeg":
+                
