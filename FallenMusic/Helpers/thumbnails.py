@@ -56,8 +56,6 @@ def truncate(text):
 
 async def gen_thumb(videoid):
     try:
-        if os.path.isfile(f"cache/{videoid}.jpg"):
-            return f"cache/{videoid}.jpg"
 
         url = f"https://www.youtube.com/watch?v={videoid}"
         if 1==1:
