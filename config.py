@@ -21,3 +21,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝆺𝅥⃝🍃 ⃪ͥ͢ ᷟ 𝐀ℓσиє𓆪•┼⃖‌ꭗ🎋")  
+
+FAILED = "https://te.legra.ph/file/664e77b17f2b7b56d8893.jpg"
