@@ -28,7 +28,7 @@ import time
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
 
-import config
+from .platforms import *
 
 StartTime = time.time()
 
