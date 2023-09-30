@@ -22,4 +22,5 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "KHUSHI_MUSIC76_BOT")  
+
+FAILED = "https://te.legra.ph/file/c97c1a3bea4f3a5762bca.jpg
