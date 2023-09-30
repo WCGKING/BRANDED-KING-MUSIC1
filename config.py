@@ -24,5 +24,4 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "KHUSHI_MUSIC76_BOT")  
 
-YOUTUBE_IMG_URL: "assets/Youtube.jpeg":
-                
+YOUTUBE_IMG_URL:"assets/Youtube.jpeg":              
