@@ -24,4 +24,4 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "BRANDED KIGN")  
 
-FAILED = "https://te.legra.ph/file/664e77b17f2b7b56d8893.jpg"
+FAILED = "https://te.legra.ph/file/4c896584b592593c00aa8.jpg"
