@@ -1,11 +1,11 @@
 asyncio==3.4.3
 aiofiles==23.2.1
-aiohttp==3.9.1
+aiohttp==3.8.5
 numpy==1.25.2
-pillow==10.2.0
+pillow==9.5.0
 psutil
 pyrogram==2.0.106
-py-tgcalls==1.1.4
+py-tgcalls==0.9.7
 python-dotenv==1.0.0
 tgcrypto==1.2.5
 speedtest-cli==2.1.3
