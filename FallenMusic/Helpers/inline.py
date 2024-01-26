@@ -51,10 +51,11 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="☆ ʙʀᴀɴᴅᴇᴅ 🥀", user_id=config.OWNER_ID),
             InlineKeyboardButton(text="☆ ꜱᴜᴘᴘᴏʀᴛ​ 🥀", url=config.SUPPORT_CHAT),
         ], 
-           InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
-        ],
-   ]
-)    
+        [
+           InlineKeyboardButton(text="↻ ᴄʟᴏsᴇ ↻ , callback_data="close"),
+        ], 
+    ]   
+)  
 
 pm_buttons = [
     [
