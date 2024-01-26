@@ -52,7 +52,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="☆ ꜱᴜᴘᴘᴏʀᴛ​ 🥀", url=config.SUPPORT_CHAT),
         ], 
         [
-            InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+            InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="↻ ᴄʟᴏsᴇ ↻"),
         ], 
     ]   
 )  
